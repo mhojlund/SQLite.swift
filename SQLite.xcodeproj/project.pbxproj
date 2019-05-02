@@ -106,10 +106,7 @@
 		49EB68C51F7B3CB400D89D40 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB68C31F7B3CB400D89D40 /* Coding.swift */; };
 		49EB68C61F7B3CB400D89D40 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB68C31F7B3CB400D89D40 /* Coding.swift */; };
 		49EB68C71F7B3CB400D89D40 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EB68C31F7B3CB400D89D40 /* Coding.swift */; };
-		93F3F6BC22789C5F00122E90 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3F6BB22789C5F00122E90 /* SQLCipher.framework */; };
-		93F3F6C32279F95500122E90 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3F6C22279F95500122E90 /* SQLCipher.framework */; };
-		93F3F6C52279F96400122E90 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3F6C42279F96400122E90 /* SQLCipher.framework */; };
-		93F3F6C72279F97100122E90 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3F6C62279F97100122E90 /* SQLCipher.framework */; };
+		93F3F724227AD52300122E90 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3F723227AD52300122E90 /* SQLCipher.framework */; };
 		EE247AD71C3F04ED00AE3E12 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = EE247AD61C3F04ED00AE3E12 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE247ADE1C3F04ED00AE3E12 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE247AD31C3F04ED00AE3E12 /* SQLite.framework */; };
 		EE247B031C3F06E900AE3E12 /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE247AEE1C3F06E900AE3E12 /* Blob.swift */; };
@@ -225,12 +222,8 @@
 		19A17B93B48B5560E6E51791 /* Fixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
 		19A17BA55DABB480F9020C8A /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndTimeFunctions.swift; sourceTree = "<group>"; };
 		19A17E2695737FAB5D6086E3 /* fixtures */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = fixtures; sourceTree = "<group>"; };
-		3D67B3E51DB2469200A4F4C6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
 		49EB68C31F7B3CB400D89D40 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
-		93F3F6BB22789C5F00122E90 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F3F6C22279F95500122E90 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F3F6C42279F96400122E90 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93F3F6C62279F97100122E90 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F3F723227AD52300122E90 /* SQLCipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLCipher.framework; path = ../../Build/iOS/SQLCipher.framework; sourceTree = "<group>"; };
 		A121AC451CA35C79005A31D1 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE247AD31C3F04ED00AE3E12 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE247AD61C3F04ED00AE3E12 /* SQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLite.h; sourceTree = "<group>"; };
@@ -291,7 +284,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F3F6C52279F96400122E90 /* SQLCipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +299,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F3F6C72279F97100122E90 /* SQLCipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +306,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F3F6BC22789C5F00122E90 /* SQLCipher.framework in Frameworks */,
+				93F3F724227AD52300122E90 /* SQLCipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +322,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F3F6C32279F95500122E90 /* SQLCipher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,11 +339,7 @@
 		3D67B3E41DB2469200A4F4C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93F3F6C62279F97100122E90 /* SQLCipher.framework */,
-				93F3F6C42279F96400122E90 /* SQLCipher.framework */,
-				93F3F6C22279F95500122E90 /* SQLCipher.framework */,
-				93F3F6BB22789C5F00122E90 /* SQLCipher.framework */,
-				3D67B3E51DB2469200A4F4C6 /* libsqlite3.tbd */,
+				93F3F723227AD52300122E90 /* SQLCipher.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -725,6 +711,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				Base,
 			);
 			mainGroup = EE247AC91C3F04ED00AE3E12;
@@ -1274,6 +1261,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1298,6 +1286,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/SQLite/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
